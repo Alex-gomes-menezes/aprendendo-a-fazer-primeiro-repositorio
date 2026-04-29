@@ -8,60 +8,80 @@
   font-family: "Oswald", sans-serif;
   
 }
-.conteiner{height: 100vh;
-width:100vw;}
+.conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    width: 100%;
+    padding: 40px;
+    gap: 40px;
+}
 
-.conteiner-left{display: inline-block;
-    width: 60%;
-    padding-left:136px;
-    margin-top:10%;
+.conteiner-left{
+    width: 48%;
+    padding-left: 20px;
+    margin-top: 0;
 }
 
 .conteiner-right{
-    display: inline-block;
-    background-color: rgba(93,93,125,0.16);
-    height: 100%;
-    width: 40%;
-    position:absolute;
-}
-img{position:relative;
-top:35px;
-right:130px;
+    width: 48%;
+    background-color:#C46BAE;
+    padding: 24px;
+    border-radius: 24px;
+    position: relative;
 }
 
-h1{
-font-size:70px;
-line-height: 80px;
-color:#5d5d7d;
-width: 368px;
-display: inline-block;}
+img{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
 
-p{font-size:28px;
-    line-height: 48px;
-    color:#5d5d7d;
-opacity: 0.6;
-margin:15px 0px;
-width:540px;
-display: inline-block;}
+.imagem{
+    font-size: 70px;
+    line-height: 80px;
+    color:#EDA4BD;
+    max-width: 520px;
+    margin-bottom: 24px;
+    display: block;
+}
+
+p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #EDA4BD;
+    opacity: 0.8;
+    margin: 0 0 32px;
+    max-width: 560px;
+    display: block;
+}
 
 
-    button{width:269px;
-    height: 62px;
-    background:#9499ea;
-box-shadow: 0px 18px 24px rgba(148,153,234,0.0979959);
-font-size: 24px;
-line-height: 36px;
-text-align: center;
-color:#ffffff;
-border:none;
-border-radius:30px;
-cursor:pointer;}
-button:hover{opacity: 0.8;}
-button:active{opacity: 0.5;}
+    button{
+        width: auto;
+        min-width: 280px;
+        padding: 18px 32px;
+        background: #C46BAE;
+        box-shadow: 0px 18px 24px rgba(148,153,234,0.0979959);
+        font-size: 24px;
+        line-height: 1.2;
+        text-align: center;
+        color: #ffffff;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+    button:hover{opacity: 0.8;}
+    button:active{opacity: 0.5;}
 a{
     font-size:28px;
     line-height: 41px;
-    color: #5d5d7d;
+    color: #EDA4BD;
     margin-left: 41px;
     cursor:pointer;
 }
@@ -101,7 +121,7 @@ header{
         display:none;
         }
 
-    h1{
+    .imagem{
         font-size:36px;
 
     line-height: 52px;
