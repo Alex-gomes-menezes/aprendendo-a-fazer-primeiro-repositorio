@@ -6,5 +6,7 @@
 <h2>-HTML</h2>
 <br>
 <h2>-CSS</h2>
+<br>
+<h2>Esse projeto se trata de um projeto responsivo aprendi sobre responsividade tambem</h2>
 <img src="https://github.com/Alex-gomes-menezes/Projeto-esmalteria/blob/novadevelop/assets/Captura%20de%20Tela%20(36).png?raw=true">
 <img src="https://github.com/Alex-gomes-menezes/Projeto-esmalteria/blob/novadevelop/assets/Captura%20de%20Tela%20(37).png?raw=true">
